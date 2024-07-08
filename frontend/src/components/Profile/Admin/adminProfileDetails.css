@@ -1,0 +1,139 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-container-details {
+  width: 50%;
+  height: 40%;
+  position: relative;
+  margin-left: 0;
+}
+
+.right-container-details {
+  width: 40%;
+  height: 90%;
+  margin-right: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 1.2em;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #000;
+  font-family: "Bree Serif";
+}
+
+.background-glass-effect {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.8;
+  background: #1a354e;
+}
+
+.administratorProfile {
+  width: 100%;
+  height: 20%;
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-family: "Bruno Ace", sans-serif;
+  font-weight: 400;
+  margin: 0.5em 0 0 0;
+  word-wrap: break-word;
+}
+
+.details-admin {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1em;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 28px;
+  font-family: "Bruno Ace", sans-serif;
+  font-weight: 400;
+}
+
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #1a354e;
+  width: 387px;
+  height: 560px;
+  opacity: 0.8;
+}
+.search-records {
+  position: relative;
+  margin: 0.2em 0 0.2em 0;
+  font-size: 1.2em;
+  font-family: "Bruno Ace";
+  color: #fff;
+  display: inline-block;
+  width: 341.23px;
+  /* height: 3em; */
+}
+
+.rectangle-parent1 {
+  font-size: 20px;
+}
+
+.rectangle-parent2 {
+  font-size: 20px;
+}
+
+.rectangle-parent3 {
+  font-size: 18px;
+}
+
+.rectangle-parent4 {
+  font-size: 18px;
+}
+
+.rectangle-parent5 {
+  font-size: 20px;
+}
+
+.rectangle-parent6 {
+  font-size: 20px;
+}
+
+.rectangle-parent1,
+.rectangle-parent2,
+.rectangle-parent3,
+.rectangle-parent4,
+.rectangle-parent5,
+.rectangle-parent6 {
+  position: relative;
+  width: 320px;
+  height: 48px;
+  text-align: center;
+  border-radius: 42.5px;
+  background-color: #fff;
+  margin-top: 0.8em;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.rectangle-parent1:hover,
+.rectangle-parent2:hover,
+.rectangle-parent3:hover,
+.rectangle-parent4:hover,
+.rectangle-parent5:hover,
+.rectangle-parent6:hover {
+  background-color: #0047ff;
+  color: #fff;
+  transform: scale(1.1);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+}
